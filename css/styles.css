@@ -1,0 +1,193 @@
+/* ZMIENNE */
+:root {
+    --color-active: #2196F3;
+    --text-main: #212121;
+    --text-secondary: #757575;
+    --text-h1: #FFFFFF;
+    --text-active-button: #FFFFFF;
+    --text-address: #FFFFFF;
+    --color-h1-footer-background: #2F303A;
+    --text-footer-contact: rgba(255, 255, 255, 0.6);
+    --color-button-background: #F5F4FA;
+    --text-studio: #000000;
+}
+/* KONIEC ZMIENNYCH */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.Webstudio,
+.header,
+.footer,
+.address {
+    text-decoration: none;
+}
+
+/* USTAWIENIA DLA HEADERÓW I FOOTERÓW */
+
+.Webstudio {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-studio);
+}
+
+.Webstudio:hover, .Webstudio:focus {
+    color: var(--text-studio);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.Webstudio,
+.header,
+.footer {
+    color: var(--text-main);
+}
+
+.header {
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
+.header:hover,
+.header:focus {
+    color: var(--color-active);
+    font-weight: 500;
+}
+
+.address {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-address);
+    background-color: var(--color-h1-footer-background);
+    font-style: normal;
+}
+
+.footer {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-footer-contact);
+    background-color: var(--color-h1-footer-background);
+}
+
+.footer:hover,
+.footer:focus {
+    color: var(--color-active);
+}
+
+/* KONIEC USTAWIEŃ DLA HEADERÓW I FOOTERÓW*/
+
+/* USTAWIENIA DLA BODY INDEXU */
+
+.headline {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-h1);
+    background-color: var(--color-h1-footer-background);
+}
+
+.order-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--text-active-button);
+    background: var(--color-active);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.p-title {
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-main);
+}
+
+.article {
+    line-height: 1.71;
+    letter-spacing: 0.03em; 
+    color: var(--text-secondary);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--text-main);
+}
+
+.title-index {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-main);
+}
+
+.desc-index {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-secondary);
+}
+
+/* KONIEC USTAWIEŃ DLA BODY INDEXU */
+
+/* USTAWIENIA DLA BODY PORTFOLIO */
+
+.portf-buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--text-main);
+    background: var(--color-button-background);
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.portf-buttons:hover, .portf-buttons:focus{
+    color: var(--text-active-button);
+    background: var(--color-active);
+}
+
+.title-portf {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-main);
+}
+
+.desc-portf {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-secondary);
+}
+
+/* KONIEC USTAWIEŃ DLA BODY PORTFOLIO */
