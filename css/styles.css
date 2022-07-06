@@ -16,6 +16,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    color: var(--text-main)
 }
 
 .list {
@@ -119,7 +120,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--text-main);
 }
 
 .article {
@@ -133,7 +133,6 @@ body {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--text-main);
 }
 
 .title-index {
@@ -141,7 +140,6 @@ body {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--text-main);
 }
 
 .desc-index {
@@ -160,7 +158,6 @@ body {
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
-    color: var(--text-main);
     background: var(--color-button-background);
     border-radius: 4px;
     text-align: center;
@@ -180,7 +177,6 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--text-main);
 }
 
 .desc-portf {
